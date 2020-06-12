@@ -1,31 +1,32 @@
-# Pintos Operating System (Summer at UC Berkeley)
-
-### Course Info
-
-The purpose of this course is to teach the design of operating systems and operating systems concepts that appear in other computer systems. Topics we will cover include concepts of operating systems, system programming, networked and distributed systems, and storage systems, including multiple-program systems (processes, interprocess communication, and synchronization), memory allocation (segmentation, paging), resource allocation and scheduling, file systems, basic networking (sockets, layering, APIs, reliability), transactions, security, and privacy.
-
-We will be using the Pintos educational operating system for all three projects.
+## Programming Languages
 
 
-### Project 3
+### Course Objective
 
-Project 3 folder contains a `inode.c` file, where I implemented the `Fast File System` for the Pintos Operating system.
-The whole Pintos code base is too large so I won't include all of it in here. Besices, I only reponsible for implementing the file system in my team for this project; thus there is no need to inlcude other people's work.
+Expose the student to an analytic and comparative way of looking at programming languages and their implementation.
 
+### Course Description
 
-### Project 2
-Project 2 folder contains a `process.c` file and a `syscall.c` file. 
+Basic concepts in design and use of programming languages, including abstraction, modularity, control mechanisms, types, declarations, syntax, and semantics. Study of several different language paradigms, including functional, object-oriented, and logic programming.
 
+### Assignment Overviews
 
-### Project 1
-We implemented multithreading and synchronization in Project 1. But I didn't have a copy of the project 1, so I didn't include it here.
+H1 (OCaml) - Fixpoints and grammar filters
+OCaml warmup -- writing simple functions on sets (e.g. subset, union, intersection, etc.)
 
-### Homework 1 
-You’ll be building a shell, similar to the Bash shell you use on your CS 162 Virtual Machine. When you open a terminal window on your computer, you are running a shell program, which is bash on your VM. The purpose of a shell is to provide an interface for users to access an operating system’s services, which include file and process management. The Bourne shell (sh) is the original Unix shell, and there are many different flavors of shells available. Some other examples include ksh (Korn shell), tcsh (TENEX C shell), and zsh (Z shell). Shells can be interactive or non-interactive. For instance, you are using bash non-interactively when you run a bash script. It is important to note that bash is non-interactive by default; run bash -i for a interactive shell.
-The operating system kernel provides well-documented interfaces for building shells. By building your own, you’ll become more familiar with these interfaces and you’ll probably learn more about other shells as well.
+H2 (OCaml) - Naive parsing of context-free grammars
+Simple parser generator of a context-free grammar
 
-### Homework 2
-Build a Http Server in C.
+H3 (Java) - Java shared memory performance races
+Deep dive into multi-threading and synchronization issues in Java
 
-### Homework 3
-Build a Http Server in Golang.
+H4 (Prolog) - Towers solver
+Solver of an arithmetical-logical puzzle known as Towers
+H5 (Scheme) - Scheme code difference analyzer
+
+Generates diff summary given two pieces of text
+Project (Python) - Proxy herd with asyncio
+Herd of servers that communicate amongst each other as well as a large number of clients asynchronously
+
+H6 (Kotlin) - Language bindings for TensorFlow
+Comparison of Java, OCaml, and Kotlin in terms of programming flexibility, generality, performance, and reliability
